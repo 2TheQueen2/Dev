@@ -1,0 +1,78 @@
+.imgOne img{
+    width: 80%;
+    height: 70%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(226, 93, 226);
+    color: #fff;
+}
+.imgOne{
+    padding: 10px;
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+div .pict{
+    width: 20%;
+    height: 200px;
+}
+.imgOne p{
+    margin-left: 40px;
+}
+.image img{
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid white;
+    transition: all 0.4s ease-in-out;
+}
+.image:hover img{
+    border: 1px solid rgb(14, 15, 14);
+    transform: scale(1.3);
+}
+.image p{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: justify;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 800;
+    color: rgb(26, 20, 20);
+}
+.ima{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+.ima img{
+    width: 130px;
+    border-radius: 45%;
+    border: 1px solid rgb(26, 20, 20);
+    margin: 5px;
+}
+.bienvenu h2, .bienvenu h3{
+    font-size: 1.2rem;
+    text-align: justify;
+    word-break: keep-all;
+    padding: 8px;
+}
+
+@media (max-width:800px){
+    .image{text-align: justify;margin: 10px;}
+    .image p{
+        text-align: justify;
+        font-size: small;
+        margin-left: -25px;
+    }
+    .autre p{
+        margin-left: 25px;
+    }
+    .image img{
+        width: 150px;
+    }
+}
